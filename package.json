@@ -1,0 +1,22 @@
+{
+  "name": "resttestpackage",
+  "version": "1.0.0",
+  "description": "rest api test",
+  "main": "rest.js",
+  "scripts": {
+    "test": "resttest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rest api test"
+  },
+  "author": "brosej",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-soap": "^1.0.3",
+    "node-soap": "^1.0.0",
+    "soap": "^0.23.0"
+  }
+}
