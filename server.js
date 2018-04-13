@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 	var params = {arg0: req.query.q}
 	//var opt = req.query.q
 	soap.createClient(ws_url, function(err, client) {
-      client.setOption(params, function(err, result) {
+      	client.setOption(params, function(err, result) {
           console.log(result);
           res.send(result)
 
